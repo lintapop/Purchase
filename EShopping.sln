@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopping", "EShopping\EShopping.csproj", "{993A8BAC-8CDE-49E3-B6A3-338539BCD790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{993A8BAC-8CDE-49E3-B6A3-338539BCD790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993A8BAC-8CDE-49E3-B6A3-338539BCD790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993A8BAC-8CDE-49E3-B6A3-338539BCD790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993A8BAC-8CDE-49E3-B6A3-338539BCD790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CB32A5B-0A3E-43F2-BF94-BC8C2E5FD561}
+	EndGlobalSection
+EndGlobal
