@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -67,6 +68,34 @@
     <Compile Include="Migrations\202103051034282_resend.designer.cs">
       <DependentUpon>202103051034282_resend.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103100506274_commit.cs" />
+    <Compile Include="Migrations\202103100506274_commit.designer.cs">
+      <DependentUpon>202103100506274_commit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103100644411_try.cs" />
+    <Compile Include="Migrations\202103100644411_try.designer.cs">
+      <DependentUpon>202103100644411_try.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103100722171_test.cs" />
+    <Compile Include="Migrations\202103100722171_test.designer.cs">
+      <DependentUpon>202103100722171_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103100725270_test1.cs" />
+    <Compile Include="Migrations\202103100725270_test1.designer.cs">
+      <DependentUpon>202103100725270_test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103100744387_test2.cs" />
+    <Compile Include="Migrations\202103100744387_test2.designer.cs">
+      <DependentUpon>202103100744387_test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103100748525_test3.cs" />
+    <Compile Include="Migrations\202103100748525_test3.designer.cs">
+      <DependentUpon>202103100748525_test3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103100758286_test4.cs" />
+    <Compile Include="Migrations\202103100758286_test4.designer.cs">
+      <DependentUpon>202103100758286_test4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Model1.cs" />
     <Compile Include="Models\Purchase.cs" />
@@ -83,6 +112,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103051034282_resend.resx">
       <DependentUpon>202103051034282_resend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100506274_commit.resx">
+      <DependentUpon>202103100506274_commit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100644411_try.resx">
+      <DependentUpon>202103100644411_try.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100722171_test.resx">
+      <DependentUpon>202103100722171_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100725270_test1.resx">
+      <DependentUpon>202103100725270_test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100744387_test2.resx">
+      <DependentUpon>202103100744387_test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100748525_test3.resx">
+      <DependentUpon>202103100748525_test3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100758286_test4.resx">
+      <DependentUpon>202103100758286_test4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
